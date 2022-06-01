@@ -33,7 +33,7 @@ My challenge was to build out this advice generator app using the [Advice Slip A
 ### Links
 
 - Solution URL: https://github.com/Danities316/Advice-generator-app-main
-- Live Site URL:
+- Live Site URL: https://danities316.github.io/Advice-generator-app-main/
 
 ## My process
 - I used googleapis for the font by @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
