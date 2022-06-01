@@ -1,4 +1,4 @@
-const getID = document.querySelector("#id");
+const getID = document.getElementById("id");
 const getAdvice = document.querySelector('.adviceapi');
 const btnOnclick = document.querySelector('#dice');
 
@@ -19,8 +19,8 @@ const getAdviceAPIData = axios.get('https://api.adviceslip.com/advice').then((re
 // load advice immediately page is loaded
 window.onload = getAdviceAPIData
 
-btnOnclick.addEventListener('click',() =>{
-    getAdviceAPIData
+btnOnclick.addEventListener('click',async () =>{
+    return await getAdviceAPIData()
 });
 
 
